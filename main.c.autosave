@@ -73,7 +73,7 @@ void printArrcharPointer(char**arr,char* word){
 char** return4(char ** words,char arr[][symbol_ ],int size){
     int i,j;
     for (i = 0; i < words_; i++) {
-       // words[i] = (char*) malloc(15);
+        words[i] = (char*) malloc(15);
         strcpy(words[i], arr[i]);
     }
     char * string="Hello World";
